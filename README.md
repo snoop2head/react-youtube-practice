@@ -19,9 +19,9 @@ Downloading dependency of boilerplate, for both server and for client./
 
 ## Making Video Upload Form
 
-* [ ] Make upload page
-* [ ] Make uploading page route
-* [ ] Make uploading page header tab button
+* [x] Make upload page
+* [x] Make uploading page route
+* [x] Make uploading page header tab button
 * [ ] Make form template
 * [ ] Make drop zone in the form tempalte
 * [ ] Make onChange function
