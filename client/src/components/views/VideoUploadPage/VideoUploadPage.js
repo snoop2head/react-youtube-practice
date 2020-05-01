@@ -4,7 +4,7 @@
 import React from "react";
 
 function VideoUploadPage() {
-  return <div></div>;
+  return <div>나비보뻿따우</div>;
 }
 
 export default VideoUploadPage;
