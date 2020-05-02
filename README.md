@@ -22,8 +22,8 @@ Downloading dependency of boilerplate, for both server and for client./
 * [x] Make upload page
 * [x] Make uploading page route
 * [x] Make uploading page header tab button
-* [ ] Make form template
-* [ ] Make drop zone in the form tempalte
+* [x] Make form template
+* [x] Make drop zone in the form tempalte
 * [ ] Make onChange function
 
 ### Running server
