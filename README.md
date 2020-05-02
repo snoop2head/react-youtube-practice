@@ -44,3 +44,16 @@ npm run dev
   }
 ```
 
+
+
+### Download dropzone
+
+* --save argument is to reflect dependency description on package.json
+
+```shell
+cd client
+npm install react-dropzone --save
+cd ..
+npm run dev
+```
+

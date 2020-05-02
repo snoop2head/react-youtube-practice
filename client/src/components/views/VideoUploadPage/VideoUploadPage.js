@@ -6,6 +6,9 @@ import React from "react";
 // import ant design for styling
 import { Typography, Button, Form, message, Input, Icon } from "antd";
 
+// import dropzone for upload page template
+import Dropzone from "react-dropzone";
+
 const { Title } = Typography;
 const { TextArea } = Input;
 
@@ -19,6 +22,24 @@ function VideoUploadPage() {
       <Form onSubmit>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           {/* drop zone */}
+          <Dropzone onDrop multiple maxSize>
+            {({ getRootProps, getInputProps }) => (
+              <div
+                style={{
+                  width: "300px",
+                  height: "240px",
+                  border: "1px solid",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+                {...getRootProps()}
+              >
+                <input {...getInputProps()} />
+                <Icon type="plus" style={{ fontSize: "3rem" }} />
+              </div>
+            )}
+          </Dropzone>
 
           {/* thumbnail  */}
           <div>
