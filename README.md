@@ -24,7 +24,7 @@ Downloading dependency of boilerplate, for both server and for client./
 * [x] Make uploading page header tab button
 * [x] Make form template
 * [x] Make drop zone in the form tempalte
-* [ ] Make onChange function
+* [x] Make onChange function
 
 ### Running server
 
